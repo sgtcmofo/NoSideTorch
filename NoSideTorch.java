@@ -35,7 +35,7 @@ public final class NoSideTorch extends JavaPlugin implements Listener {
             Location loc = block.getLocation();
             Location belowLoc = new Location(loc.getWorld(), loc.getX(), loc.getY()-1, loc.getZ());
             Block belowBlock = belowLoc.getBlock();
-            if(belowBlock.getType() != Material.AIR && belowBlock.getType().isSolid())
+            if(belowBlock.getType().isSolid())
             {
                 player.sendMessage("'" + name + "' Thou Shall Not Side Torch!");
                 event.setCancelled(true);
