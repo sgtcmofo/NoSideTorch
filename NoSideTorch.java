@@ -1,6 +1,7 @@
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
+import org.bukkit.enchantments.Enchantment;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
@@ -37,8 +38,9 @@ public final class NoSideTorch extends JavaPlugin implements Listener {
             Block belowBlock = belowLoc.getBlock();
             if(belowBlock.getType().isSolid())
             {
-                player.sendMessage("'" + name + "' Thou Shall Not Side Torch!");
+                player.sendMessage(name + " Thou Shall Not Side Torch!");
                 event.setCancelled(true);
             }
         }
     }
+    
