@@ -1,13 +1,11 @@
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
-import org.bukkit.enchantments.Enchantment;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.BlockPlaceEvent;
-import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class NoSideTorch extends JavaPlugin implements Listener {
@@ -43,4 +41,4 @@ public final class NoSideTorch extends JavaPlugin implements Listener {
             }
         }
     }
-    
+}
