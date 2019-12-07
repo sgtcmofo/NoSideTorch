@@ -11,4 +11,6 @@ This is the actual plugin you drop into the /plugins folder on the server.  Once
 
 A message in the server console should say "No Side Torch plugin Started"
 
-And when you stop the server a message will display "No Side Torch plugin is shutting down"
+And when you stop the server a message will display "No Side Torch plugin is stopped."
+
+Any updates/suggestions just let me know. 
